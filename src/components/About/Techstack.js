@@ -10,21 +10,19 @@ import {
   DiGit,
   DiJava,
   DiJira,
-  DiDart,
   DiAws,
   DiGoogleCloudPlatform,
 } from "react-icons/di";
 import {
-  SiRedis,
+  
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
   SiC,
   SiExpress,
   SiAzuredevops,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
 
 function Techstack() {
   return (
