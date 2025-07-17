@@ -32,12 +32,15 @@ function NavBar() {
 
   return (
     <Navbar
+      style={{ backgroundColor: "#8708b1ff", color: "white" }} id="navbar"
       expanded={expand}
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Container>
+      <Container
+
+      >
         <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
@@ -94,7 +97,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
@@ -104,7 +107,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/GURUPRASAD178/ReactJs-Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
