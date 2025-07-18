@@ -6,7 +6,7 @@ Welcome to my developer portfolio built with **Next.js**, **Tailwind CSS**, and 
 
 ## 🚀 Live Demo
 
-🌎 [View Portfolio](https://your-portfolio-domain.com)
+🌎 [View Portfolio](https://react-guruprasad-hd.com)
 
 ---
 
