@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import tipEase from "../../Assets/Projects/tipease.png";
+import lawbridge from "../../Assets/Projects/lawbridge.png";
+import herbalGarden from "../../Assets/Projects/herbal.png";
+import railMadad from "../../Assets/Projects/railmadad.png";
+import smartLight from "../../Assets/Projects/smartlight.png";
+import ecommerceAI from "../../Assets/Projects/ecommerce.png";
 
 function Projects() {
   return (
@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Works</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -23,68 +23,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={tipEase}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="TipEase"
+              description="TipEase is a web app built with Django and Bootstrap for seamless digital tipping. It supports Razorpay integration, user roles (waiters/customers), tip history, and total earnings tracking in a clean UI."
+              ghLink="https://github.com/guruprasad-hd178/TipEase"
+              demoLink="https://tipease.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={lawbridge}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="LawBridge"
+              description="LawBridge is a Spring Boot & Thymeleaf-powered lawyer-client management system with secure login, role-based dashboards, case tracking, lawyer appointments, and admin insights with dynamic reporting."
+              ghLink="https://github.com/guruprasad-hd178/LawBridge"
+              demoLink="https://lawbridge.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={herbalGarden}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Virtual Herbal Garden"
+              description="An immersive, educational web-based experience showcasing medicinal plants used in AYUSH systems, including 3D visualizations, plant facts, audio guides, and virtual walk-throughs for learners."
+              ghLink="https://github.com/guruprasad-hd178/Virtual-Herbal-Garden"
+              demoLink="https://herbalgarden.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={railMadad}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="AI-Powered Rail Madad"
+              description="An enhanced version of Rail Madad using AI to auto-categorize and prioritize complaints via NLP and ML. Features include image OCR, smart routing, urgency detection, and chatbot intake."
+              ghLink="https://github.com/guruprasad-hd178/AI-Powered-Rail-Madad"
+              demoLink="https://railmadadai.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={smartLight}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="EcoLight - Smart Lighting"
+              description="EcoLight uses AI + IoT sensors to detect occupancy and automatically adjust lighting, reducing energy waste in smart buildings. Built with Python, Django, and MQTT integration."
+              ghLink="https://github.com/guruprasad-hd178/EcoLight-AI"
+              demoLink="https://ecolight-ai.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={ecommerceAI}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="AI for E-Commerce Complaints"
+              description="An AI system for e-commerce platforms that analyzes complaint text, detects urgency, auto-tags categories, and smartly routes tickets for faster customer service resolution."
+              ghLink="https://github.com/guruprasad-hd178/Ecommerce-AI-Complaints"
+              demoLink="https://ecommerce-ai.vercel.app/"
             />
           </Col>
         </Row>
