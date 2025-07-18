@@ -1,6 +1,6 @@
 # 🌐 Guruprasad H D — Developer Portfolio
 
-![Banner](https://github.com/guruprasad-hd178/portfolio/images/banner.png)
+![Banner](https://github.com/GURUPRASAD178/ReactJs-Portfolio/blob/main/Images/banner.png)
 
 Welcome to my developer portfolio built with **Next.js**, **Tailwind CSS**, and **Framer Motion**. This site showcases my recent projects, technical skills, GitHub statistics, and more.
 
