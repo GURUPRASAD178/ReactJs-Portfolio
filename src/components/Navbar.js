@@ -97,7 +97,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href=""
+                href="https://gurudilp456.wixsite.com/techtales-unveiled"
                 target="_blank"
                 rel="noreferrer"
               >

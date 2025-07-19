@@ -27,8 +27,8 @@ function Projects() {
               isBlog={false}
               title="TipEase"
               description="TipEase is a web app built with Django and Bootstrap for seamless digital tipping. It supports Razorpay integration, user roles (waiters/customers), tip history, and total earnings tracking in a clean UI."
-              ghLink="https://github.com/guruprasad-hd178/TipEase"
-              demoLink="https://tipease.vercel.app/"
+              ghLink="https://github.com/GURUPRASAD178/"
+              demoLink="https://guruprasad178.pythonanywhere.com/"
             />
           </Col>
 
@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="LawBridge"
               description="LawBridge is a Spring Boot & Thymeleaf-powered lawyer-client management system with secure login, role-based dashboards, case tracking, lawyer appointments, and admin insights with dynamic reporting."
-              ghLink="https://github.com/guruprasad-hd178/LawBridge"
+              ghLink="https://github.com/GURUPRASAD178/"
               demoLink="https://lawbridge.vercel.app/"
             />
           </Col>
@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Virtual Herbal Garden"
               description="An immersive, educational web-based experience showcasing medicinal plants used in AYUSH systems, including 3D visualizations, plant facts, audio guides, and virtual walk-throughs for learners."
-              ghLink="https://github.com/guruprasad-hd178/Virtual-Herbal-Garden"
+              ghLink="https://github.com/GURUPRASAD178/"
               demoLink="https://herbalgarden.vercel.app/"
             />
           </Col>
@@ -60,8 +60,8 @@ function Projects() {
               isBlog={false}
               title="AI-Powered Rail Madad"
               description="An enhanced version of Rail Madad using AI to auto-categorize and prioritize complaints via NLP and ML. Features include image OCR, smart routing, urgency detection, and chatbot intake."
-              ghLink="https://github.com/guruprasad-hd178/AI-Powered-Rail-Madad"
-              demoLink="https://railmadadai.vercel.app/"
+              ghLink="https://github.com/GURUPRASAD178/"
+              demoLink="https://guruprasad456.pythonanywhere.com/"
             />
           </Col>
 
@@ -71,7 +71,7 @@ function Projects() {
               isBlog={false}
               title="EcoLight - Smart Lighting"
               description="EcoLight uses AI + IoT sensors to detect occupancy and automatically adjust lighting, reducing energy waste in smart buildings. Built with Python, Django, and MQTT integration."
-              ghLink="https://github.com/guruprasad-hd178/EcoLight-AI"
+              ghLink="https://github.com/GURUPRASAD178/"
               demoLink="https://ecolight-ai.vercel.app/"
             />
           </Col>
@@ -82,7 +82,7 @@ function Projects() {
               isBlog={false}
               title="AI for E-Commerce Complaints"
               description="An AI system for e-commerce platforms that analyzes complaint text, detects urgency, auto-tags categories, and smartly routes tickets for faster customer service resolution."
-              ghLink="https://github.com/guruprasad-hd178/Ecommerce-AI-Complaints"
+              ghLink="https://github.com/GURUPRASAD178/"
               demoLink="https://ecommerce-ai.vercel.app/"
             />
           </Col>
